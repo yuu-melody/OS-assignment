@@ -62,7 +62,7 @@
 		calWaitingTime(q,size);
 		calTurnAroundTime(q,size);
 		printf("\nPId\t\tPrior\t\tBurst Time\t\tWaiting Time\t\tTurnAround Time\t\tArrival");
-		printf("\n---------------------------------------\n");
+		printf("\n---------------------------------------------------\n");
 		for(int i=0;i<size;i++){
 			printQueueI(q[i]);
 		}
